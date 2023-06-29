@@ -16,4 +16,4 @@ Second terminal
 ulimit -n 20000000 && ./client.sh -i 127.0.0.1 -p 8 -b 7000 -m 32
 
 
-Cuurently there is a 40M limit to open socket connections in linux, because the maximum value **net.netfilter.nf_conntrack_max** can take is 4194304.
+Cuurently there is a 4M limit to open socket connections in linux, because the maximum value **net.netfilter.nf_conntrack_max** can take is 4194304.
